@@ -11,3 +11,6 @@ install:
 build_script:
   - cmd: mingw32-make.exe TARGET=windows CFLAGS=-O3
   - sh: make
+artifacts:
+- path: flips
+  name: flips.exe
